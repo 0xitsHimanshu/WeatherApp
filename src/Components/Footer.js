@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Footer() {
+function Footer() {
     return (
         <div className="footer">
             <footer class="py-5 bg-dark fixed-bottom">
@@ -13,3 +13,4 @@ export default function Footer() {
         </div>
     );
 }
+export default Footer;
