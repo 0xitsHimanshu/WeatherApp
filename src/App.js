@@ -1,23 +1,22 @@
-import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import Navigation from './Components/Navigation';
-import Weather from "./Components/Weather";
+import React, { useState } from "react";
+import CurrentLocation from "./currentLocation";
 import "./App.css";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from "@fortawesome/free-brands-svg-icons"
-
-library.add(fab);
 
 function App() {
   return (
     <React.Fragment>
-      <Router>
-        <Navigation />
-        <Routes>  
-          <Route path="/" element={() => <div className="container1"><Weather /></div>} />
-          {/* <Redirect from='*' to='/' /> */}
-        </Routes>
-      </Router>
+      <div className="container">
+        <CurrentLocation />
+      </div>
+      <div className="footer-info">
+        <a href="https://github.com/0xitsHimanshu/WeatherApp">
+          Download Source Code
+        </a>{" "}
+        | Developed by{" "}
+        <a target="_blank" href="https://www.gauravghai.dev/">
+          Himanshu ❤️
+        </a>
+      </div>
     </React.Fragment>
   );
 }
