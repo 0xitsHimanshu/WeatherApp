@@ -34,7 +34,7 @@ function Forcast(props) {
   }
 
   const defaults = {
-    color: "white",
+    color: "yellow",
     size: 112,
     animate: true,
   };
