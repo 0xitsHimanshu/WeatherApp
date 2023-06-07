@@ -193,7 +193,7 @@ img {
 /*-- Index-Page-Styling --*/
 
 body {
-  background: url("./images/background.jpg");
+  background: url("./Images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -234,7 +234,7 @@ h1 {
   width: 60%;
   height: 100%;
   float: left;
-  background: url("./images/city.jpg");
+  background: url("./Images/city.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -536,6 +536,9 @@ div#txt {
     padding: 0;
   }
   .dmy {
+    position: absolute;
+    top: -116px;
+    left: 0;
     padding: 0;
     margin-bottom: 35px;
     text-align: center;
@@ -555,6 +558,9 @@ div#txt {
     padding: 20px;
   }
   .temperature p {
+    position: absolute;
+    top: -206px;
+    left: 91px;
     font-size: 60px;
     padding-bottom: 15px;
   }

@@ -2,7 +2,7 @@ import React from "react";
 import apiKeys from "./apiKeys";
 import Clock from "react-live-clock";
 import Forcast from "./forcast";
-import loader from "./images/WeatherIcons.gif";
+import loader from "./Images/WeatherIcons.gif";
 import ReactAnimatedWeather from "react-animated-weather";
 const dateBuilder = (d) => {
   let months = [

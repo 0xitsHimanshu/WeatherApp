@@ -13,9 +13,10 @@ function App() {
           Download Source Code
         </a>{" "}
         | Developed by{" "}
-        <a target="_blank" href="https://www.gauravghai.dev/">
-          Himanshu ❤️
-        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/0xitshimanshuyadav/">
+          Himanshu 
+        </a>{" "}
+         with ❤️
       </div>
     </React.Fragment>
   );
