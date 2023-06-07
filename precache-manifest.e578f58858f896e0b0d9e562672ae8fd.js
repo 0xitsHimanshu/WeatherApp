@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "911ac61af56e5bf233accbdb38481d4a",
+    "revision": "563e522af7eac1d59c0737f938b22876",
     "url": "/WeatherApp/index.html"
   },
   {
-    "revision": "416b2da4c3605f0fa263",
-    "url": "/WeatherApp/static/css/main.4be0922c.chunk.css"
+    "revision": "4962c64ffa8b8303ee54",
+    "url": "/WeatherApp/static/css/main.579089fd.chunk.css"
   },
   {
     "revision": "898563a14707e112a105",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WeatherApp/static/js/2.e35d3f0a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "416b2da4c3605f0fa263",
+    "revision": "4962c64ffa8b8303ee54",
     "url": "/WeatherApp/static/js/main.1d65bdbf.chunk.js"
   },
   {
@@ -32,11 +32,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WeatherApp/static/media/WeatherIcons.0a218296.gif"
   },
   {
-    "revision": "75e0f8ca422777deab777d3abe0a90e7",
-    "url": "/WeatherApp/static/media/background.75e0f8ca.jpg"
+    "revision": "62c7a47b253f3108f95bdbe9883fc35f",
+    "url": "/WeatherApp/static/media/background1.62c7a47b.jpg"
   },
   {
-    "revision": "e1698332435d6a6fb48294f85157aeab",
-    "url": "/WeatherApp/static/media/city.e1698332.jpg"
+    "revision": "4f1ab76e1f95ce052188c5a75810fe66",
+    "url": "/WeatherApp/static/media/city1.4f1ab76e.jpg"
   }
 ]);
